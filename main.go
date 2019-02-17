@@ -6,6 +6,7 @@ import (
 )
 
 const (
+	// BoardSize - Total size of game board squares to play with.
 	BoardSize = 9
 )
 
