@@ -31,7 +31,7 @@ func (b board) printBoard(args ...string) {
 
 func (b board) printGameBoard() {
 	var results []string
-	for index, _ := range b.squares {
+	for index := range b.squares {
 		if b.squares[index].occupier != "" {
 			results = append(results, b.squares[index].occupier)
 		} else {
