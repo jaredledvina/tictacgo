@@ -113,7 +113,6 @@ func initializeBoard(boardSize int) (gameBoard board) {
 
 func main() {
 	fmt.Println("Welcome to TicTacGo!")
-	fmt.Println()
 	fmt.Println("Initializing new game board...")
 
 	gameBoard := initializeBoard(BoardSize)
