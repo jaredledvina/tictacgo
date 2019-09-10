@@ -119,8 +119,6 @@ func main() {
 	gameBoard := initializeBoard(BoardSize)
 	gameBoard.printGameBoard()
 
-	fmt.Println("Please enter the board square number to play.")
-
 	gameStillRunning := true
 	playerXsTurn := true
 	for gameStillRunning {
